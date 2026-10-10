@@ -33,9 +33,9 @@ GET /risk-profile   ──────────►  decode Payment-Signature
 | Field | Value |
 |-------|-------|
 | Chain ID | 5042002 |
-| RPC | `https://rpc.testnet.arc.network` |
+| RPC | `https://rpc.testnet.arc.io` |
 | USDC | `0x3600000000000000000000000000000000000000` |
-| Explorer | https://testnet.arcscan.app |
+| Explorer | https://explorer.testnet.arc.io |
 | Faucet | https://faucet.circle.com |
 
 ---
