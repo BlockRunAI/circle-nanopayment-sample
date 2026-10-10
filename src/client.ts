@@ -18,7 +18,7 @@ console.log(`Gateway available: ${balances.gateway.formattedAvailable}`)
 console.log(`Gateway total: ${balances.gateway.formattedTotal}\n`)
 
 // If no Gateway balance, remind user to deposit
-if (balances.gateway.available === 0n) {
+if (!balances.gateway.available || balances.gateway.available === 0n) {
   console.log('No Gateway balance. Run: npm run deposit -- <amount>')
   console.log('Example: npm run deposit -- 1')
   process.exit(1)
